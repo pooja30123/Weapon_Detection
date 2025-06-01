@@ -1,0 +1,15 @@
+artifact_uri: file:c:/Users/dsy92/OneDrive/Desktop/Weapon-Detection/models/runs/mlflow/818077838994344116/2d5e4fb1247f4c05a0b4db46220a7faa/artifacts
+end_time: 1746187618337
+entry_point_name: ''
+experiment_id: '818077838994344116'
+lifecycle_stage: active
+run_id: 2d5e4fb1247f4c05a0b4db46220a7faa
+run_name: weapon-detector-v8s
+run_uuid: 2d5e4fb1247f4c05a0b4db46220a7faa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746184195212
+status: 3
+tags: []
+user_id: dsy92
