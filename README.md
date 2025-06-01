@@ -5,7 +5,21 @@
 ![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-red?style=flat-square&logo=streamlit)
 ![Accuracy](https://img.shields.io/badge/Model%20Accuracy-50%25-yellow?style=flat-square)
 
-A real-time weapon detection web application powered by **YOLOv8** and **Streamlit**. Upload an image or video to automatically detect and highlight weapons (guns) using bounding boxes. Perfect for security surveillance, demo projects, or AI learning.
+A real-time weapon detection web application developed as a **group project** for the **Image Processing and Computer Vision (IPCV)** course at **IIIT Lucknow**. This application uses a custom-trained **YOLOv8 model** to detect weapons, specifically guns, in images and videos, and presents results via an interactive **Streamlit interface**.
+
+---
+
+## 📚 Project Info
+
+- **Course**: Image Processing and Computer Vision (IPCV)  
+- **Institute**: Indian Institute of Information Technology, Lucknow (IIITL)  
+- **Semester**: [Spring/Monsoon] 2025  
+- **Model**: YOLOv8 - retrained for single class (Gun)
+- **Team Members**:
+  - [Your Name]
+  - [Teammate 1]
+  - [Teammate 2]
+  - [Teammate 3]
 
 ---
 
@@ -14,25 +28,20 @@ A real-time weapon detection web application powered by **YOLOv8** and **Streaml
 ✅ Upload and detect weapons in **images**  
 ✅ Upload and detect weapons in **videos**  
 ✅ Real-time **bounding box** visualization  
-✅ Displays results with **confidence scores**  
-✅ Built with modern deep learning: **YOLOv8**  
-✅ Clean and interactive **Streamlit interface**
-
----
-
-## 🚀 Demo
-
-> Coming Soon – add screenshots or a link to a hosted demo (like Streamlit Cloud or Hugging Face Spaces)
+✅ Displays detection **confidence scores**  
+✅ Built on top of **YOLOv8 + PyTorch**  
+✅ Clean and easy-to-use **Streamlit interface**
 
 ---
 
 ## 🧠 Model Details
 
 - **Architecture**: YOLOv8 (Ultralytics)
-- **Classes**: `Gun` (extendable)
-- **Training Accuracy**: ~50%
-- **Framework**: PyTorch + Ultralytics YOLO
-- **Model Path**: `model/version3.pt`
+- **Detection Target**: `Gun`
+- **Training Accuracy**: ~50%  
+- **Framework**: PyTorch + Ultralytics  
+- **Model File**: `model/version3.pt`  
+- **Custom Dataset**: Annotated using LabelImg with ~21,000 images
 
 ---
 
