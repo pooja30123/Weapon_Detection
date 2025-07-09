@@ -16,10 +16,9 @@ A real-time weapon detection web application developed as a **group project** fo
 - **Semester**: [Spring/Monsoon] 2025  
 - **Model**: YOLOv8 - retrained for single class (Gun)
 - **Team Members**:
-  - [Your Name]
-  - [Teammate 1]
-  - [Teammate 2]
-  - [Teammate 3]
+  - Pooja Verma
+  - Madhavi Mishra
+  - Deepesh Kumar
 
 ---
 
